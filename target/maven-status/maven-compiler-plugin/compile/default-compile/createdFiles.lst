@@ -1,0 +1,9 @@
+application.properties
+schema.sql
+com\kgisl\demo2\Demo2Application.class
+static\index.js
+com\kgisl\demo2\repository\PersonRepository.class
+com\kgisl\demo2\controller\PersonController.class
+data.sql
+static\index.html
+com\kgisl\demo2\entity\Person.class
