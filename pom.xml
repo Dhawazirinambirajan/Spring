@@ -29,6 +29,8 @@
     </scm>
     <properties>
         <java.version>21</java.version>
+        <sonar.organization>dhawazirinambirajan</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
     <dependencies>
         <dependency>
@@ -39,13 +41,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
- 
+
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <version>2.6.0</version>
         </dependency>
- 
+
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
@@ -57,7 +59,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
- 
+
     <build>
         <plugins>
             <plugin>
@@ -70,5 +72,5 @@
             </plugin>
         </plugins>
     </build>
- 
+
 </project>
